@@ -1,0 +1,24 @@
+page-channellist {
+    .header_danger{
+        .toolbar-background{
+            background: red;
+        }
+        .toolbar-title{color: #fff;}
+        .back-button{color: #fff;}
+    }
+    .scroll-content{padding: 16px 0 !important;}
+    .channel_list{
+        border-bottom: 1px solid #d8d8d8;
+        margin-bottom: 2px;
+        .col{
+            h2{font-size: 14px;}
+            p{font-size: 14px;}
+        }
+    }
+
+    .descrptn{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: "ellipse"; 
+    }
+}

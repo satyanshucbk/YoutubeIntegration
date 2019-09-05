@@ -1,0 +1,90 @@
+page-signup {
+    
+ 
+       
+       
+          .scroll-content {
+           
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+          }
+       
+          img {
+            width: 50%;
+            height: auto;
+            margin: 0 auto;
+          }
+       
+          #cloud-layer {
+            background-image: url(../assets/images/cloud-layer.png);
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+          }
+       
+            ion-row {
+              align-items: center;
+              text-align: center;
+            }
+       
+            ion-item {
+                border-radius: 30px !important;
+                padding-left: 10px !important;
+                margin-bottom: 10px;
+                background-color: #f6f6f6;
+                opacity: 0.7;
+                font-size: 0.9em;
+                margin-top: 23px !important;
+            }
+       
+            ion-list {
+                margin: 0;
+            }
+
+            ion-row .item-inner {
+            border: 1px solid #000 !important;
+            border-radius: 30px;
+            }
+       
+            .login-button {
+                width: 100%;
+                border-radius: 30px;
+                font-size: 0.9em;
+                border: 1px solid #fff;
+                background-color: #848080;
+            }
+
+            ion-item.item.item-block.item-md.item-input {
+                margin-top: 20px;
+            }
+
+            ion-title.titleheader.title.title-md {
+                text-align: center;
+            }
+
+
+            button.back-button.disable-hover.bar-button.bar-button-ios.back-button-ios.bar-button-default.bar-button-default-ios.show-back-button {
+                color: #000;
+            }
+
+
+            .login-button{
+
+                background: red;
+              }
+       
+        
+              .list-ios > .item-block{border: 0 !important;
+                .item-inner{border: 1px solid #929292 !important; padding: 0 10px;}
+            }
+
+            .header_danger{
+                .toolbar-background{
+                    background: red;
+                }
+                .toolbar-title{color: #fff;}
+                .back-button{color: #fff;}
+            }
+      
+}
